@@ -1071,7 +1071,7 @@ if [ $nofpbx ] ; then
   message "Skipping FreePBX 17 installation due to nofreepbx option"
 else
   setCurrentStep "Installing FreePBX 17"
-  pkg_install ioncube-loader-82
+  #pkg_install ioncube-loader-82
   pkg_install freepbx17
 
   # Check if only opensource required then remove the commercial modules
