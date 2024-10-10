@@ -100,6 +100,8 @@ phpenmod freepbx
 service apache2 restart
 ```
 
+5) Abort the firewall setup or it will lock you out
+
 The installation duration may vary depending on your internet bandwidth and system capacity.
 
 You can find detailed installation logs at `/var/log/pbx/freepbx17-install.log`.
