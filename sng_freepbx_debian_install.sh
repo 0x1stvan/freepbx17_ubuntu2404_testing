@@ -1191,7 +1191,7 @@ setCurrentStep "Post-installation validation"
 
 check_services
 
-check_php_version
+#check_php_version
 
 if [ ! $nofpbx ] ; then
  check_freepbx
