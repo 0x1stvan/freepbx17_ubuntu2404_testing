@@ -100,7 +100,7 @@ phpenmod freepbx
 service apache2 restart
 ```
 
-5) Abort the firewall setup or it will lock you out
+5) Abort the firewall setup or it will lock you out (UPDATE: looks like firewall is working if enabled without the wizard)
 
 The installation duration may vary depending on your internet bandwidth and system capacity.
 
